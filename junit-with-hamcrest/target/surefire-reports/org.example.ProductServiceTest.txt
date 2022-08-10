@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: org.example.ProductServiceTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.049 s <<< FAILURE! - in org.example.ProductServiceTest
+testProducts  Time elapsed: 0.035 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: is ["Dell", "Lenovo", "Hdsp", "Asus"] 
+     but: item 2: was "Hp"
+	at org.example.ProductServiceTest.testProducts(ProductServiceTest.java:60)
+
