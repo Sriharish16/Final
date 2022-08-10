@@ -1,0 +1,13 @@
+server:  
+  port: 5000
+  
+spring:  
+  datasource:
+    url: jdbc:postgresql://database4.cooqrn2paqma.us-east-1.rds.amazonaws.com:5432/database4
+    username: postgres
+    password: Harish-16
+    
+  jpa:  
+    hibernate:
+      ddl-auto: create
+      
